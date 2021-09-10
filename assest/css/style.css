@@ -1,0 +1,53 @@
+body {
+  min-height: 3000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+#perhitungan {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
+/*TREE*/
+
+.treeArea {
+  display: block;
+  background-color: #e2edff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.treeArea i {
+  text-align: center;
+  margin-left: 250px;
+}
+/*INPUT*/
+.inputArea {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  padding: 10px;
+}
+.form-control:focus {
+  border-color: #e2edff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(255, 194, 177);
+}
+/*OUTPUT*/
+.outputArea {
+  display: block;
+  color: black;
+  background-color: #e2edff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  padding: 10px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(134, 151, 172);
+}
+#output {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
